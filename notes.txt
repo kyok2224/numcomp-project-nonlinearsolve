@@ -1,0 +1,16 @@
+Possible topics to explore:
+
+measure execution time between difference solver algorithms on the same or multiple problems
+algorithms: NewtonRaphson, TrustRegion, Broyden, Klement
+explore why some algorithms will be faster than others
+
+visiualize and comprare the convergence speed to the runtime of each algorithm
+
+explore tolerance within an algorithm
+change the tolerance (absolute, relative, or both) and see how the runtime changes with precision
+Show the tradeoff between speed and accuracy
+
+explore how the difference algorithms perform when the initial guess is far from the true solution
+for example newtons method can diverge if the inital guess is bad. Look into bracketing methods
+
+show how the difference algorithms perform when working with large systems of equations
